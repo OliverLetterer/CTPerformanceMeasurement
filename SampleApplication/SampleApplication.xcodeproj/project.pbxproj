@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A79AFF2A14E675350025FCB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79AFF2914E675350025FCB4 /* Foundation.framework */; };
+		A79AFF2D14E675350025FCB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A79AFF2C14E675350025FCB4 /* main.m */; };
+		A79AFF3114E675350025FCB4 /* SampleApplication.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A79AFF3014E675350025FCB4 /* SampleApplication.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A79AFF2314E675350025FCB4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A79AFF3114E675350025FCB4 /* SampleApplication.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A79AFF2514E675350025FCB4 /* SampleApplication */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SampleApplication; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79AFF2914E675350025FCB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A79AFF2C14E675350025FCB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A79AFF2F14E675350025FCB4 /* SampleApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleApplication-Prefix.pch"; sourceTree = "<group>"; };
+		A79AFF3014E675350025FCB4 /* SampleApplication.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SampleApplication.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A79AFF2214E675350025FCB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79AFF2A14E675350025FCB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A79AFF1A14E675350025FCB4 = {
+			isa = PBXGroup;
+			children = (
+				A79AFF2B14E675350025FCB4 /* SampleApplication */,
+				A79AFF2814E675350025FCB4 /* Frameworks */,
+				A79AFF2614E675350025FCB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A79AFF2614E675350025FCB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A79AFF2514E675350025FCB4 /* SampleApplication */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A79AFF2814E675350025FCB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A79AFF2914E675350025FCB4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A79AFF2B14E675350025FCB4 /* SampleApplication */ = {
+			isa = PBXGroup;
+			children = (
+				A79AFF2C14E675350025FCB4 /* main.m */,
+				A79AFF3014E675350025FCB4 /* SampleApplication.1 */,
+				A79AFF2E14E675350025FCB4 /* Supporting Files */,
+			);
+			path = SampleApplication;
+			sourceTree = "<group>";
+		};
+		A79AFF2E14E675350025FCB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A79AFF2F14E675350025FCB4 /* SampleApplication-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A79AFF2414E675350025FCB4 /* SampleApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79AFF3414E675350025FCB4 /* Build configuration list for PBXNativeTarget "SampleApplication" */;
+			buildPhases = (
+				A79AFF2114E675350025FCB4 /* Sources */,
+				A79AFF2214E675350025FCB4 /* Frameworks */,
+				A79AFF2314E675350025FCB4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleApplication;
+			productName = SampleApplication;
+			productReference = A79AFF2514E675350025FCB4 /* SampleApplication */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A79AFF1C14E675350025FCB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = A79AFF1F14E675350025FCB4 /* Build configuration list for PBXProject "SampleApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A79AFF1A14E675350025FCB4;
+			productRefGroup = A79AFF2614E675350025FCB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A79AFF2414E675350025FCB4 /* SampleApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A79AFF2114E675350025FCB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79AFF2D14E675350025FCB4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A79AFF3214E675350025FCB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A79AFF3314E675350025FCB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A79AFF3514E675350025FCB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleApplication/SampleApplication-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A79AFF3614E675350025FCB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleApplication/SampleApplication-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A79AFF1F14E675350025FCB4 /* Build configuration list for PBXProject "SampleApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79AFF3214E675350025FCB4 /* Debug */,
+				A79AFF3314E675350025FCB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79AFF3414E675350025FCB4 /* Build configuration list for PBXNativeTarget "SampleApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79AFF3514E675350025FCB4 /* Debug */,
+				A79AFF3614E675350025FCB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A79AFF1C14E675350025FCB4 /* Project object */;
+}
