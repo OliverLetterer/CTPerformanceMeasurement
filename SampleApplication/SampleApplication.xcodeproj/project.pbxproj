@@ -10,6 +10,8 @@
 		A79AFF2A14E675350025FCB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79AFF2914E675350025FCB4 /* Foundation.framework */; };
 		A79AFF2D14E675350025FCB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A79AFF2C14E675350025FCB4 /* main.m */; };
 		A79AFF3114E675350025FCB4 /* SampleApplication.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A79AFF3014E675350025FCB4 /* SampleApplication.1 */; };
+		A79AFF3814E675DE0025FCB4 /* CTPerformanceMeasurement.m in Sources */ = {isa = PBXBuildFile; fileRef = A79AFF3714E675DE0025FCB4 /* CTPerformanceMeasurement.m */; };
+		A79AFF3C14E6767E0025FCB4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79AFF3B14E6767E0025FCB4 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,9 @@
 		A79AFF2C14E675350025FCB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A79AFF2F14E675350025FCB4 /* SampleApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleApplication-Prefix.pch"; sourceTree = "<group>"; };
 		A79AFF3014E675350025FCB4 /* SampleApplication.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SampleApplication.1; sourceTree = "<group>"; };
+		A79AFF3714E675DE0025FCB4 /* CTPerformanceMeasurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTPerformanceMeasurement.m; path = ../../CTPerformanceMeasurement/CTPerformanceMeasurement.m; sourceTree = "<group>"; };
+		A79AFF3914E675EC0025FCB4 /* CTPerformanceMeasurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTPerformanceMeasurement.h; path = ../../CTPerformanceMeasurement/CTPerformanceMeasurement.h; sourceTree = "<group>"; };
+		A79AFF3B14E6767E0025FCB4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79AFF3C14E6767E0025FCB4 /* CoreFoundation.framework in Frameworks */,
 				A79AFF2A14E675350025FCB4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +71,7 @@
 		A79AFF2814E675350025FCB4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A79AFF3B14E6767E0025FCB4 /* CoreFoundation.framework */,
 				A79AFF2914E675350025FCB4 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -73,6 +80,7 @@
 		A79AFF2B14E675350025FCB4 /* SampleApplication */ = {
 			isa = PBXGroup;
 			children = (
+				A79AFF3A14E675F30025FCB4 /* CTPerformanceMeasurement */,
 				A79AFF2C14E675350025FCB4 /* main.m */,
 				A79AFF3014E675350025FCB4 /* SampleApplication.1 */,
 				A79AFF2E14E675350025FCB4 /* Supporting Files */,
@@ -86,6 +94,15 @@
 				A79AFF2F14E675350025FCB4 /* SampleApplication-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A79AFF3A14E675F30025FCB4 /* CTPerformanceMeasurement */ = {
+			isa = PBXGroup;
+			children = (
+				A79AFF3914E675EC0025FCB4 /* CTPerformanceMeasurement.h */,
+				A79AFF3714E675DE0025FCB4 /* CTPerformanceMeasurement.m */,
+			);
+			name = CTPerformanceMeasurement;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A79AFF2D14E675350025FCB4 /* main.m in Sources */,
+				A79AFF3814E675DE0025FCB4 /* CTPerformanceMeasurement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
