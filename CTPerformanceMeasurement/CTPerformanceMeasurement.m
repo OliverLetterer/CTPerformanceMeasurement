@@ -7,10 +7,8 @@
 //
 
 #import "CTPerformanceMeasurement.h"
-#import <CoreFoundation/CoreFoundation.h>
 #import <dispatch/dispatch.h>
 #include <mach/mach_time.h>
-#import <Foundation/Foundation.h>
 
 #pragma mark - private
 
